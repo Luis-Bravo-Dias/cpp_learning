@@ -5,10 +5,10 @@ int	main()
 {
 	Sample	instance;
 
-	instance.foo = 42;
-	std::cout << "instance.foo: " << instance.foo << std::endl;
+	// instance.foo = 42;
+	// std::cout << "instance.foo: " << instance.foo << std::endl;
 
-	instance.bar();
+	// instance.bar();
 
 	return (0);
 }
