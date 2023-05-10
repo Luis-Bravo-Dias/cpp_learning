@@ -42,6 +42,6 @@ Sample &	Sample::operator=(Sample const & rhs)
 
 std::ostream &	operator<<(std::ostream & o, Sample const & rhs)
 {
-	o << rhs.getValue();
+	o << rhs.getFoo();
 	return (o);
 }
